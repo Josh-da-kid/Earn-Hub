@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    box-sizing: border-box;
+
+   text-align: left;
+
+   padding-left: 40px;
+   padding-top: 20px;
+    
+    border-radius: 10px;
+
+    border: 1px solid white;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);;
+
+
+    width: 90%; 
+
+    max-width: 400px; 
+
+    height: 485px; 
+
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    display: block;
+
+  
+}
+
+a{
+    color: blue;
+}
+
+#username{
+width: 250px;
+height: 40px;
+
+margin-bottom: 20px;
+
+border-radius: 5px;
+border: 2px solid grey;
+padding-left: 11px;
+}
+
+.password{
+    width: 250px;
+height: 40px;
+margin-top: 7px;
+margin-bottom: 25px;
+border-radius: 5px;
+padding-left: 11px;
+
+
+border: 2px solid grey;
+}
+
+#fp{
+margin-right: 13px;
+text-decoration: none;
+}
+
+#checkbox{
+    margin-bottom: 30px;
+    transform: scale(2.0);
+    margin-right: 15px;
+}
+
+#log-btn{
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+#log-btn:hover{
+    background-color: white;
+    color: blue;
+}
+
+#log-header{
+margin-left: 95px;
+}
+
+h1{
+    margin-left: 22px;
+}
+#user{
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+#welcome{
+    margin-left: 70px;
+}
+
+#passwordhd{
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
