@@ -1,20 +1,105 @@
-let info = document.getElementById('info');
-let msg = document.getElementById('msg');
-let resetButton = document.getElementById("rp-btn");
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
 
+.container{
+    background-color: white;
+    box-sizing: border-box;
 
-const messageText = "It happens to the best of us! Just input the email address you used in signing up to the account you wish to retrieve and follow the simple steps to reset your password.";
+   text-align: left;
 
-info.addEventListener('click', function () {
+   padding-left: 30px;
+   padding-top: 20px;
     
-    if (msg.textContent.trim() === "") {
-        msg.textContent = messageText; 
-    } else {
-        msg.textContent = ""; 
-    }
-});
+    border-radius: 10px;
 
-resetButton.addEventListener("click", function () {
-    msg.textContent = ""; 
-});
+    border: 1px solid white;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);;
+
+
+    width: 90%; 
+
+    max-width: 400px; 
+
+    height: 480px; 
+
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+
+#rp-header{
+    margin-left: 15px;
+}
+
+
+#fp-header{
+margin-left: 15px;
+}
+
+
+#fp-header:hover{
+    color: blue;
+}
+
+#info{
+    background-color: blue;
+    border-radius: 5px;
+    height: 25px;
+    width: 40px;
+    color: white;
+}
+#info:hover{
+    background-color: white;
+    color: black;
+}
+
+#emailAddress{
+    width: 260px;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding-left: 11px;
+    
+}
+#rp-btn{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+#rp-btn:hover{
+    background-color: white;
+    color: blue;
+}
+
+#login{
+color: black;
+text-decoration: overline;
+}
+
+#login:hover{
+    color: blue;
+}
+
+#sign-up{
+    color: black;
+    text-decoration: overline;
+}
+#sign-up:hover{
+    color: blue;
+
+}
 
