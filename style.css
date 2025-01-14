@@ -66,7 +66,12 @@ border: 2px solid grey;
 #fp{
 margin-right: 13px;
 text-decoration: none;
+color: black;
 }
+#fp:hover{
+color: blue;
+}
+
 
 #checkbox{
     margin-bottom: 30px;
