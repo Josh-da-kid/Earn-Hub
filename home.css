@@ -1,18 +1,29 @@
 body{
-  
-   
+  background-image: url("L$E\ HUB\ LOGO.png");
+   margin: 0;
+  padding: 0;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh;
    
 }
 
-.overlay{
-    background-image: url('https://thumbs.dreamstime.com/z/woman-words-learn-earn-female-student-carrying-books-businesswoman-jumping-over-dollar-sign-text-blackboard-70418313.jpg?ct=jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 250vh;
-    height: 300vh;
-}
+.veil {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
 
+  .text {
+    position: relative; /* Stacks on top of the background and veil */
+    z-index: 2; /* Ensures it appears above the veil */
+    text-align: center;
+    color: white;
+  }
 
 
   
