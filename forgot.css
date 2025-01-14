@@ -34,12 +34,34 @@ body{
     transform: translate(-50%, -50%);
     display: block;
 }
+
+
 #rp-header{
     margin-left: 15px;
 }
+
+
 #fp-header{
 margin-left: 15px;
 }
+
+
+#fp-header:hover{
+    color: blue;
+}
+
+#info{
+    background-color: blue;
+    border-radius: 5px;
+    height: 25px;
+    width: 40px;
+    color: white;
+}
+#info:hover{
+    background-color: white;
+    color: black;
+}
+
 #emailAddress{
     width: 260px;
     margin-bottom: 20px;
